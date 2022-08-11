@@ -3,10 +3,10 @@ body {
 }
 .heading {
 }
-
-.formatting {
-  display: flex;
-  flex-direction: column;
+/*apply whole child component with display block*/
+.formatting > * {
+  display: block;
+  padding: 5px;
 }
 .quotation {
   display: flex;
