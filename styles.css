@@ -1,0 +1,77 @@
+body {
+  box-sizing: none;
+  text-transform: capitalize;
+  margin: 0%;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* project */
+.projects {
+  display: block;
+}
+.project_bg {
+  background: url(./picture/project.png) no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-size: contain;
+}
+/* about me */
+.about_me {
+  display: block;
+}
+.about_me_bg {
+  background: url(./picture/aboutMe.png) no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  margin: auto;
+}
+
+/*skills */
+.skills {
+  display: block;
+}
+.skills_bg {
+  background: url(./picture/skills.png) no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  margin: auto;
+}
+/* back to top button */
+
+#btn_back_to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  cursor: pointer;
+}
