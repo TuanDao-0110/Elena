@@ -1,3 +1,16 @@
-h1 { 
-    color :red
+/*put border sizing */
+* {
+  box-sizing: border-box;
+}
+/*add style to boby*/
+body {
+  background: linear-gradient(0deg, blue, green 40%, red);
+  color: blue;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h1 {
+  color: red;
 }
