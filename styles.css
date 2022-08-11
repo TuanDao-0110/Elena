@@ -1,0 +1,14 @@
+body {
+  text-transform: capitalize;
+}
+.heading {
+}
+
+.formatting {
+  display: flex;
+  flex-direction: column;
+}
+.quotation {
+  display: flex;
+  flex-direction: column;
+}
