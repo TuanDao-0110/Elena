@@ -87,12 +87,12 @@ a {
   transition-duration: 500ms;
   font-size: 5px;
   /* do center */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  line-height: 20px;
 }
 .up {
-  height: 10px;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
 }
 #btn_back_to_top:hover {
   color: red;
