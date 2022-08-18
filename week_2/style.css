@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Silkscreen", cursive;
+}
+/* header  */
+header {
+  background-color: green;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  counter-reset: item;
+  list-style-type: none;
+}
+li > a {
+  text-decoration: none;
+  cursor: pointer;
+  animation-duration: 500ms;
+}
+li > a:hover {
+  color: blue;
+}
+
+/* main */
+
+.home_para {
+  background: url("https://picsum.photos/id/121/200/300") no-repeat;
+  background-size: cover;
+}
+
+.contact_para {
+  background: url("https://picsum.photos/id/222/500/500") no-repeat;
+  background-size: 100%;
+}
