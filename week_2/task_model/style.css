@@ -1,16 +1,16 @@
 h2 {
   color: red;
 }
-
+section {
+  display: flex;
+  background-color: darkblue;
+}
 .box {
   height: 50px;
   width: 50px;
   margin: 5px;
 }
-section {
-  display: flex;
-  background-color: darkblue;
-}
+
 .first_box {
   border: 4px dotted white;
   background-color: blueviolet;
@@ -23,7 +23,7 @@ section {
   background-color: gray;
   border-right: 4px solid yellow;
   border-top: green 4px solid;
-  border-left: 4px red solid;
+  border-left: 4px red solid;/cssref/tryit.asp
   border-bottom: 4px blue solid;
 }
 .fouth_box {
