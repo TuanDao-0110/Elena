@@ -1,10 +1,11 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: content-box;
 }
 body {
   /* box-sizing: none; */
   text-transform: capitalize;
-  margin: 0%;
 }
 html {
   scroll-behavior: smooth;
@@ -13,23 +14,14 @@ a {
   text-decoration: none;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 /* nav */
 .heading {
-  background: url("https://picsum.photos/200/300") no-repeat;
-  background-size: cover;
-  height: 50px;
+  background: grey;
+  margin-bottom: 1rem;
+}
+.heading ul {
+  margin: 0;
+  text-align: center;
 }
 .heading ul li {
   list-style-type: none;
@@ -47,7 +39,6 @@ li :hover {
 }
 
 .card {
-  border-radius: 10%;
   background: linear-gradient(
       45deg,
       rgba(255, 0, 0, 0.8),
@@ -55,6 +46,9 @@ li :hover {
     ),
     linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
     linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  padding: 5px;
 }
 /* project */
 .projects {
@@ -62,8 +56,8 @@ li :hover {
 }
 .project_bg {
   background: url(./picture/project.png) no-repeat;
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
   margin: auto;
   background-size: contain;
   float: left;
