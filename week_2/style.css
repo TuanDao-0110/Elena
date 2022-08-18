@@ -41,8 +41,9 @@ li > a:hover {
 
 /* home */
 .home_para {
-  background: url("https://picsum.photos/id/121/200/300") no-repeat;
+  background: url("https://picsum.photos/id/234/300/400") no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 /* contact */
@@ -53,12 +54,15 @@ li > a:hover {
   border-collapse: collapse;
 }
 
-.contact_para table thead tr > th {
+.contact_para table thead tr th {
   color: red;
   background-color: blue;
   border: 1px solid black;
-`}
-.contact_para table tbody tr {
+  font-size: 0.5rem;
+}
+.contact_para table tbody tr td {
   font-size: 0.3rem;
   background-color: linen;
+  border: 1px solid blue;
+  text-align: center;
 }
