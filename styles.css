@@ -45,6 +45,7 @@ a {
   height: 100px;
   margin: auto;
   background-size: contain;
+  float: left;
 }
 /* about me */
 .about_me {
@@ -56,6 +57,7 @@ a {
   height: 100px;
   background-size: contain;
   margin: auto;
+  float: left;
 }
 
 /*skills */
@@ -68,6 +70,7 @@ a {
   height: 100px;
   background-size: contain;
   margin: auto;
+  float: right;
 }
 /* back to top button */
 
