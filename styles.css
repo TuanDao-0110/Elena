@@ -24,7 +24,30 @@ a {
     background-position: 0% 50%;
   }
 }
+
+/* nav */
+.heading {
+  background: url("https://picsum.photos/200/300") no-repeat;
+  background-size: cover;
+  height: 50px;
+}
+.heading ul li {
+  list-style-type: none;
+  display: inline;
+  width: auto;
+  margin: 5px;
+  justify-content: center;
+}
+li :hover {
+  color: greenyellow;
+}
+/*main  */
 .main {
+  padding: 0 10px;
+}
+
+.card {
+  border-radius: 10%;
   background: linear-gradient(
       45deg,
       rgba(255, 0, 0, 0.8),
@@ -32,9 +55,7 @@ a {
     ),
     linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
     linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
-  animation: gradient 5s ease-in-out infinite;
 }
-
 /* project */
 .projects {
   display: block;
