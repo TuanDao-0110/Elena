@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Silkscreen", cursive;
+  font-family: "Open Sans", sans-serif;
   padding: 0.4rem;
 }
 /* header  */
@@ -38,7 +38,9 @@ li > a:hover {
 }
 
 /* main */
-
+h2 {
+  line-height: 32px;
+}
 /* home */
 .home_para {
   background: url("https://picsum.photos/id/234/300/400") no-repeat;
