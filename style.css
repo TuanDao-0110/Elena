@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #42654c;
+    min-height: 100vh;
+}
+.task {
+    background-color: #333634;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    font-size: 80px;
+    color: #e7e7e7;
+    text-align: center;
+    margin-bottom: 50px;
+}
+section {
+    height: 100vh;
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefeff;
+    width: 60%;
+    margin: auto;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+
+.container h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+form {
+    display: grid;
+    width: 40vh;
+    place-content: center center;
+}
+label {
+    font-size: 10px;
+    font-weight: 300;
+}
+input {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+    border: 0.5px solid rgba(0, 0, 0, 0.294);
+    border-radius: 5px;
+}
+input:focus-visible { 
+    border: 2px solid rgba(222, 46, 46, 0.7);
+    
+}
+form button {
+    background-color: #e28b63;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin: 15px auto 0;
+    padding: 10px;
+    color: #fff;
+}
+
+form p {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 15px;
+}
+form p span {
+    color: #efa380;
+}
+
+/*  */
+.on_account {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #ffff;
+
+}
+
+.on_account span { 
+    color: #B9805D;
+}
