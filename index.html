@@ -4,53 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>week_4</title>
+    <title>week_5</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div ></div>
-
     <header>
-      <div class="logo">logo</div>
-      <nav>
+      <div class="logo"></div>
+      <nav class="nav">
         <ul>
-          <li>
-            <a href="">link_1</a>
-          </li>
-          <li>
-            <a href="">link_1</a>
-          </li>
-          <li>
-            <a href="">link_1</a>
-          </li>
-          <li>
-            <a href="">link_1</a>
-          </li>
+          <li>about me</li>
+          <li>skill</li>
+          <li>contact</li>
+          <li>move about BCH</li>
         </ul>
       </nav>
     </header>
     <main>
-      
-      <aside>
-          <div class="box">1</div>
-          <div class="box">2</div>
-          <div class="box">3</div>
-          <div class="box">4</div>
-
-      </aside>
-      <section>
-          <div class="box">1</div>
-          <div class="box">2</div>
-          <div class="box">3</div>
-          <div class="box">4</div>
-          <div class="box">5</div>
-          <div class="box">6</div>
-          <div class="box">7</div>
-          <div class="box">8</div>
-
-      </section>
-      <article></article>
+      <div class="container">
+        <div class="card">
+          <h3>my project</h3>
+          <!-- <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" /> -->
+          <progress value="10" max="50"></progress>
+        </div>
+        <div class="card">
+          <h3>my project</h3>
+          <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur nam
+            suscipit, dicta adipisci, quisquam labore offic rem, quos dolorum accusantium in fugit.
+          </p>
+        </div>
+        <div class="card">
+          <h3>my project</h3>
+          <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur nam
+            suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
+          </p>
+        </div>
+        <div class="card">
+          <h3>my project</h3>
+          <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur nam
+            suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
+          </p>
+        </div>
+        <div class="card">
+          <h3>my project</h3>
+          <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur nam
+            suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
+          </p>
+        </div>
+      </div>
+      <div class="skill"></div>
     </main>
-      <footer></footer>
+    <footer></footer>
+    <script>
+      window.addEventListener("scroll", (event) => {
+        let scroll = this.scrollY;
+        let header = document.querySelector("header");
+        scroll > 100 ? (header.style.opacity = "0.4") : (header.style.opacity = "1");
+        scroll > 100 ? (header.className = "header_smaller") : (header.className = "");
+      });
+
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
+    </script>
   </body>
 </html>
