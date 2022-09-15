@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/peace_logo.png" type="image/x-icon" />
     <title>Portfolio</title>
+    <!-- animation css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Font awesome -->
     <link
       rel="stylesheet"
@@ -17,33 +20,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="logo"></div>
+    <header id="header">
+      <div class="logo"><a href="#"></a></div>
       <nav class="nav">
+        <div class="btn burger" onclick="">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
         <ul>
-          <li>about me</li>
-          <li>skill</li>
-          <li>contact</li>
-          <li>move about BCH</li>
+          <li><a href="#project">my project</a></li>
+          <li><a href="#about_me">about me</a></li>
+          <li><a href="#skill">skill</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><a href="#gallery">gallery</a></li>
         </ul>
       </nav>
+      <ul class="small_menu">
+          <li><a href="#project">my project</a></li>
+          <li><a href="#about_me">about me</a></li>
+          <li><a href="#skill">skill</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><a href="#gallery">gallery</a></li>
+        </ul>
     </header>
     <main>
-      <div class="distance project">
+      <div class="distance project" id="project">
         <h2>my project</h2>
         <div class="" id="line"></div>
         <div class="container">
           <div class="card">
             <h3>my project</h3>
-            <!-- <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" /> -->
-            <progress value="10" max="50"></progress>
-          </div>
-          <div class="card">
-            <h3>my project</h3>
             <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur
-              nam suscipit, dicta adipisci, quisquam labore offic rem, quos dolorum accusantium in fugit.
             </p>
           </div>
           <div class="card">
@@ -51,7 +61,6 @@
             <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur
-              nam suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
             </p>
           </div>
           <div class="card">
@@ -59,7 +68,6 @@
             <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur
-              nam suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
             </p>
           </div>
           <div class="card">
@@ -67,7 +75,6 @@
             <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur
-              nam suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
             </p>
           </div>
           <div class="card">
@@ -75,7 +82,6 @@
             <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur
-              nam suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
             </p>
           </div>
           <div class="card">
@@ -83,45 +89,13 @@
             <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur
-              nam suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
-            </p>
-          </div>
-          <div class="card">
-            <h3>my project</h3>
-            <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur
-              nam suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
-            </p>
-          </div>
-          <div class="card">
-            <h3>my project</h3>
-            <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur
-              nam suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
-            </p>
-          </div>
-          <div class="card">
-            <h3>my project</h3>
-            <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur
-              nam suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
-            </p>
-          </div>
-          <div class="card">
-            <h3>my project</h3>
-            <img src="https://api.lorem.space/image/book?w=150&h=220" alt="" />
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus praesentium nobis repellat explicabo eius. Ullam alias tenetur
-              nam suscipit, dicta adipisci, quisquam labore officia rem, quos dolorum accusantium in fugit.
             </p>
           </div>
         </div>
       </div>
-      <div class="about_me distance">
+      <div class="about_me distance" id="about_me">
         <h2>about me</h2>
+        <div class="" id="line"></div>
         <div class="content">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aperiam iure culpa ratione non voluptates, ipsum et architecto tempore
@@ -130,8 +104,9 @@
           <img src="https://api.lorem.space/image?w=150&h=180" alt="" />
         </div>
       </div>
-      <div class="distance">
+      <div class="distance" id="skill">
         <h2>skills</h2>
+        <div class="" id="line"></div>
         <div class="skills">
           <div class="card_skill">
             <i class="fab fa-html5"></i>
@@ -155,36 +130,50 @@
           </div>
         </div>
       </div>
-      <div class="distance">
+      <div class="distance" id="gallery">
+        <h2>gallery</h2>
+        <div class="" id="line"></div>
+
+        <div class="gallery">
+          <img src="https://loremflickr.com/g/320/240/paris" alt="" />
+          <img src="https://loremflickr.com/g/320/240/m" alt="" />
+          <img src="https://loremflickr.com/g/320/240/paris" alt="" />
+          <img src="https://loremflickr.com/g/320/240/p" alt="" />
+          <img src="https://loremflickr.com/g/320/240/l" alt="" />
+          <img src="https://loremflickr.com/g/320/240/w" alt="" />
+          <img src="https://loremflickr.com/g/320/240/pis" alt="" />
+          <img src="https://loremflickr.com/g/320/240/pis" alt="" />
+          <img src="https://loremflickr.com/g/320/240/aris" alt="" />
+        </div>
+      </div>
+      <div class="distance" id="contact">
         <div class="contact">
           <h2>contact me</h2>
           <form action="">
             <label for="name">your name</label>
-            <input type="text" name="" id="name">
+            <input type="text" name="" id="name" />
             <label for="email">your email</label>
-            <input type="email" name="" id="email">
+            <input type="email" name="" id="email" />
             <label for="message">your message</label>
             <textarea name="message" id="" cols="30" rows="10"></textarea>
-            <button type="submit" value=""> send me message</button>
-              
+            <button type="submit" value="">send me message</button>
           </form>
-          <p>copy right </p>
+          <p>copy right</p>
         </div>
       </div>
     </main>
+    <div class="back_top">
+      <a href="#project"><i class="fa fa-angle-up"></i></a>
+    </div>
     <footer></footer>
-    <script>
-      window.addEventListener("scroll", (event) => {
-        let line = document.querySelector("#line");
-        let scroll = this.scrollY;
-        let header = document.querySelector("header");
-        scroll > 100 ? (header.style.opacity = "0.4") : (header.style.opacity = "1");
-        scroll > 100 ? (header.className = "header_smaller") : (header.className = "");
-      });
-
-      window.onbeforeunload = function () {
-        window.scrollTo(0, 0);
-      };
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+      new WOW().init();
     </script>
+    <script src="./main.js"></script>
   </body>
 </html>
