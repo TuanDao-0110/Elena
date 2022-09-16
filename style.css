@@ -1,15 +1,15 @@
 :root {
     --pureWhite: #edf6f9;
     --redRose: #caf0f8;
-    --lightBlue: #a8dadc;
+    --lightBlue: #a7aeaef6;
     --dimBlue: #90a5b2;
     --darkBlue: #000;
     --rose: #fff4e6;
     --black: #333333;
     --orange: #ff7f4f;
     --btnColor: #9fbdcd;
-    --bodyColor: #fff;
-    --smallerHeaderColor: #00b4d8;
+    --bodyColor: rgb(204, 202, 202);
+    --smallerHeaderColor: #2d2e2e;
 }
 
 * {
@@ -107,8 +107,8 @@ h2 {
     background-size: contain;
     background-position: center;
     border-radius: 100%;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     cursor: pointer;
 }
 header .small_menu {
